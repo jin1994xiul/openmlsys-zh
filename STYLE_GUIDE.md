@@ -10,7 +10,7 @@
 ## 文本
 
 * LaTeX文件转换Markdown文件
-    * Linux下安装Pandoc命令：agt-get install pandoc
+    * Linux下安装Pandoc命令：apt install -y pandoc
     * 使用Pandoc命令：pandoc -s example.tex -o example.md
 * 使用Pandoc转换后需要注意修改的地方
     * 表格需要手动改
@@ -26,11 +26,11 @@
     * 转换得到的md中，如果使用了"-"语法，则不能出现以下形式的内容:
     ```markdown
       - title
-  
+
           content content content content content con...
     ```
     即"-"之后空了一行，且内容行首空了4格，否则d2lbook会编译失败:
-  
+
 ## 图片
 
 * 软件
@@ -48,7 +48,7 @@
         ![4](./img/guide/step5.png)
         * 最后保存图片，用Pycharm看图片效果如下：无白色底，大小刚好框住整图。
         ![5](./img/guide/step6.png)
-        
+
 * 样式
     * 格式：
         * svg：自己绘制的图片需要用svg，注意去掉白底
@@ -59,7 +59,7 @@
         :width:`800px`
         :label:`img_workflow`
     ```
-  
+
 * 版权
     * 不使用网络图片
 * 位置
@@ -78,7 +78,3 @@
 * 其他转换方式
     * 如果图中有很多公式，使用工具导入可能会有大量公式乱码，此时可以将图保存为.png格式。
     * 使用[在线图片去底工具](https://www.aigei.com/bgremover/) 将图片中的白底去除。
- 
-    
-    
-
